@@ -1,0 +1,2758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mysqlSheet</class>
+ <widget class="QWidget" name="mysqlSheet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>200</width>
+     <height>440</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(8, 129, 60);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>报表</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>日报表</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>月报表</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>产品报表</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>210</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>货品报表</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>操作员报表</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>310</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>测试</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>380</y>
+      <width>200</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>MAX:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>10000kg</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_date">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>0</y>
+     <width>180</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>0</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>1kg</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>MIN:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>0</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>日期:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>40</y>
+     <width>600</width>
+     <height>440</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>5</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>55</y>
+       <width>600</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>601</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 36pt &quot;Ubuntu&quot;;
+color: rgb(0, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_year">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+font: 75 24pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>2018</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_mounth">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+font: 75 24pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>05</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_date_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+font: 75 24pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>08</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 36pt &quot;Ubuntu&quot;;
+color: rgb(0, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_22">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_24">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_23">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_25">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_8">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>380</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>日报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_23">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>380</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QToolButton" name="toolButton_9">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>600</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>601</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 36pt &quot;Ubuntu&quot;;
+color: rgb(0, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_year_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+font: 75 24pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>2018</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_mounth_2">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(0, 0, 0);
+font: 75 24pt &quot;Ubuntu&quot;;</string>
+           </property>
+           <property name="text">
+            <string>05</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 36pt &quot;Ubuntu&quot;;
+color: rgb(0, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_26">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_27">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_28">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_29">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>月报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_24">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QToolButton" name="toolButton_10">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>确认</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>600</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>601</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2000</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="currentSection">
+          <enum>QDateTimeEdit::MonthSection</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>到</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>531</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>请修改查询时间</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>产品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>产品名称:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="minimumSize">
+         <size>
+          <width>80</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>产品代码:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>产品重量:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>产品单价:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="lineEdit_5">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>产品描述:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>操作员ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QToolButton" name="toolButton_12">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>380</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>insert</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>385</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>271</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>笔数:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_17">
+        <property name="styleSheet">
+         <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>90</y>
+       <width>291</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_18">
+        <property name="styleSheet">
+         <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>总重：</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_19">
+        <property name="styleSheet">
+         <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>0.00kg</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QToolButton" name="toolButton_11">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>产品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_25">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_7">
+    <widget class="QLabel" name="label_33">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>日报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>531</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <widget class="QLabel" name="label_34">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>月报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>531</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_8">
+    <widget class="QLabel" name="label_35">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>产品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>531</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_9">
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>591</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>货品名称:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 22pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_13">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>380</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>高级</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_15">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>310</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_10">
+    <widget class="QLabel" name="label_37">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>521</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_11">
+    <widget class="QLabel" name="label_38">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>591</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>591</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QLabel" name="label_39">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>操作员ID:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 22pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_14">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>310</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_20">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>380</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>高级</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_12">
+    <widget class="QLabel" name="label_40">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_18">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <widget class="QLabel" name="label_49">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_50">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_10">
+       <item>
+        <widget class="QLabel" name="label_51">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_52">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_27">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_13">
+    <widget class="QLabel" name="label_41">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>600</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>601</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2000</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="currentSection">
+          <enum>QDateTimeEdit::MonthSection</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_42">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>到</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_16">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>380</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_14">
+    <widget class="QLabel" name="label_43">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_17">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QLabel" name="label_44">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_45">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <widget class="QLabel" name="label_46">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_47">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_26">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_15">
+    <widget class="QLabel" name="label_48">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>521</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_16">
+    <widget class="QLabel" name="label_53">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>521</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_17">
+    <widget class="QLabel" name="label_54">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>货品报表</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_11">
+       <item>
+        <widget class="QLabel" name="label_55">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_56">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_12">
+       <item>
+        <widget class="QLabel" name="label_57">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_58">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_19">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>380</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_28">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>380</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_18">
+    <widget class="QLabel" name="label_59">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>600</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>601</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_5">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2000</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="currentSection">
+          <enum>QDateTimeEdit::MonthSection</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_62">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>到</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="dateTimeEdit_6">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Sans Serif&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_21">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>380</y>
+       <width>200</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_19">
+    <widget class="QLabel" name="label_60">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_22">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>明细</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>150</y>
+       <width>600</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>GroupBox</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_13">
+       <item>
+        <widget class="QLabel" name="label_63">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>笔数:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_64">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_14">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>0</y>
+        <width>311</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <widget class="QLabel" name="label_65">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>总重：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_66">
+         <property name="styleSheet">
+          <string notr="true">font: 75 28pt &quot;Ubuntu&quot;;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0.00kg</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_29">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>390</y>
+       <width>200</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(241, 156, 31);
+color: rgb(255, 255, 255);
+font: 16pt &quot;Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>打印</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_20">
+    <widget class="QLabel" name="label_61">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>598</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Sans Serif&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(8, 129, 60);</string>
+     </property>
+     <property name="text">
+      <string>操作员报表高级查询</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>521</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);
+font: 6pt &quot;Sans Serif&quot;;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

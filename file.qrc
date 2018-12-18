@@ -1,0 +1,66 @@
+<RCC>
+    <qresource prefix="/maindialog">
+        <file>maindialog/35-08.png</file>
+        <file>maindialog/ICON-01.png</file>
+        <file>maindialog/ICON-02.png</file>
+        <file>maindialog/ICON-03.png</file>
+        <file>maindialog/ICON-04.png</file>
+        <file>maindialog/ICON-05.png</file>
+        <file>maindialog/ICON-06.png</file>
+        <file>maindialog/ICON-07.png</file>
+        <file>maindialog/ICON-08.png</file>
+        <file>maindialog/ICON-09.png</file>
+        <file>maindialog/ICON-10.png</file>
+        <file>maindialog/ICON-11.png</file>
+        <file>maindialog/ICON-12.png</file>
+        <file>maindialog/ICON-13.png</file>
+        <file>maindialog/ICON-14.png</file>
+        <file>maindialog/ICON-PDM.png</file>
+        <file>maindialog/logo.png</file>
+        <file>inputPanel/025.png</file>
+        <file>inputPanel/arrow-big-01.png</file>
+        <file>inputPanel/arrow-big-02.png</file>
+        <file>inputPanel/arrow-big-03.png</file>
+        <file>inputPanel/arrow-big-04.png</file>
+        <file>inputPanel/arrow-small-09.png</file>
+        <file>inputPanel/backspace.png</file>
+        <file>inputPanel/br_down.png</file>
+        <file>inputPanel/br_left.png</file>
+        <file>inputPanel/br_right.png</file>
+        <file>inputPanel/br_up.png</file>
+        <file>inputPanel/down.png</file>
+        <file>inputPanel/f0e2.png</file>
+        <file>inputPanel/f01e.png</file>
+        <file>inputPanel/keyboard.jpg</file>
+        <file>inputPanel/left.png</file>
+        <file>inputPanel/power-shutdown.png</file>
+        <file>inputPanel/right.png</file>
+        <file>inputPanel/top.png</file>
+        <file>inputPanel/triangle-left.png</file>
+    </qresource>
+    <qresource prefix="/inputPanel">
+        <file>inputPanel/025.png</file>
+        <file>inputPanel/arrow-big-01.png</file>
+        <file>inputPanel/arrow-big-02.png</file>
+        <file>inputPanel/arrow-big-03.png</file>
+        <file>inputPanel/arrow-big-04.png</file>
+        <file>inputPanel/arrow-small-09.png</file>
+        <file>inputPanel/backspace.png</file>
+        <file>inputPanel/br_down.png</file>
+        <file>inputPanel/br_left.png</file>
+        <file>inputPanel/br_right.png</file>
+        <file>inputPanel/br_up.png</file>
+        <file>inputPanel/down.png</file>
+        <file>inputPanel/f0e2.png</file>
+        <file>inputPanel/f01e.png</file>
+        <file>inputPanel/keyboard.jpg</file>
+        <file>inputPanel/left.png</file>
+        <file>inputPanel/power-shutdown.png</file>
+        <file>inputPanel/right.png</file>
+        <file>inputPanel/top.png</file>
+        <file>inputPanel/triangle-left.png</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file>other/67.bmp</file>
+    </qresource>
+</RCC>

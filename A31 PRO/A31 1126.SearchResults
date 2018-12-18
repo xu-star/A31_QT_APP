@@ -1,0 +1,5 @@
+---- on_toolButton_7_clicked Matches (4 in 4 files) ----
+Configsetting.cpp (z:\a31-20181126):void configSetting::on_toolButton_7_clicked()
+Configsetting.h (z:\a31-20181126):    void on_toolButton_7_clicked();
+Mysqlsheet.cpp (z:\a31-20181126):void mysqlSheet::on_toolButton_7_clicked()
+Mysqlsheet.h (z:\a31-20181126):    void on_toolButton_7_clicked();
