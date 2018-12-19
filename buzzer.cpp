@@ -59,5 +59,3 @@ void buzzer::buzzerscan()
         PIN_PC10_L;
     }
 }
-098
-hello world!
